@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #EFE9D5;
+}
+
+h2 {
+  color: #604652;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #604652;
+  color: #EFE9D5;
+  margin: 10px;
+  font-size: 30px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.9s ease;
+}
+
+p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 32px;
+  color: #604652;
+  margin-top: 20px;
+}
