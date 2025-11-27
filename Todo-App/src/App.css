@@ -1,0 +1,67 @@
+body {
+  background-color: #44444E;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #F5AD18;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #44444E;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none; /* removes the dot */
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #44444E;
+  color: white;
+  margin-bottom: 12px; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.todo-list li div button {
+  margin-left: 8px;
+  padding: 8px 12px;
+}
+
+.edit-btn {
+  background-color: #468A9A;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
